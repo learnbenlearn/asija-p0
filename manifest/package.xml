@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Mail__c.Insurance_Approval</members>
+        <name>ApprovalProcess</name>
+    </types>
+
+    <types>
+        <members>Postal_Service</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>Address__c</members>
+        <members>Contact</members>
+        <members>Inhabitant__c</members>
+        <members>Mail__c</members>
+        <members>Route__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Address__c</members>
+        <members>Inhabitant__c</members>
+        <members>Mail__c</members>
+        <members>Route__c</members>
+        <name>CustomTab</name>
+    </types>
+
+    <types>
+        <members>Mail_Record_Page</members>
+        <members>Postal_Service_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <types>
+        <members>Contact_to_Account</members>
+        <name>Flow</name>
+    </types>
+
+    <types>
+        <members>Address__c-Address Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Inhabitant__c-Inhabitant Layout</members>
+        <members>Mail__c-Mail Layout</members>
+        <members>Route__c-Route Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>Driver_Permissions</members>
+        <members>Handler_Permissions</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <types>
+        <members>Admin</members>
+        <members>Driver</members>
+        <members>Mail Handler</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+
+    <types>
+        <members>Account</members>
+        <members>Mail__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>50.0</version>
+</Package>
